@@ -1,14 +1,16 @@
-import React from 'react';
-import logo from '../logo.svg';
+import React, { Component } from 'react';
 import '../App.css';
-import NewsItem from './NewsItem';
 
-function App() {
-  return (
-    <div className="App">
-      <NewsItem/>
-    </div>
-  );
+import News from './News';
+
+class App extends Component {
+    render() {
+        return(
+            <div className="App">
+                <News/>
+            </div>
+        );
+    }
 }
 
 export default App;
