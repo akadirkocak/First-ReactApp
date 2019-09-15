@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-
 import News from './News';
 
 class App extends Component {
@@ -22,7 +21,7 @@ class App extends Component {
           }]; 
         return(
             <div className="App">
-                <News news={news} />
+                <News news={news} name={[1,2]}/>
             </div>
         );
     }
